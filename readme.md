@@ -21,3 +21,4 @@ GNU General Public License v3.0
 
 ### [N2N](https://github.com/ntop/n2n)
 
+### [Read the Guide to use](https://laysense.coding.net/s/7f943c9f-676e-4cc4-b111-3ff4facc61ee)
