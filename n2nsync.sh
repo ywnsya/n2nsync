@@ -21,6 +21,7 @@ if [ -f "$basepath/n2nsync.config" ];then
     curl -m 10 -d "ip=$thisip&type=config&passwd=$password" $ip:$port > $conf
     curl -m 10 -d "ip=$thisip&type=list&passwd=$password" $ip:$port > $list
     echo "Sync Successfully"
+    systemctl restart supernode
 
 else
   echo "

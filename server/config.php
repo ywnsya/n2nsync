@@ -13,7 +13,7 @@ $allowip=array(
 
 #This is an alternative if the IP used by the client to access the Servers does not match the actual IP
 #In this way, the client can attach an IP address to the POST for IP address authentication
-if(isset($_POST['ip'])){
+if(strlen($_POST['ip'])>=5){
 $ip=$_POST['ip'];
 };
 

@@ -1,0 +1,11 @@
+[Unit]
+Description=n2n sync tool server
+After=network-online.target
+
+[Service]
+TimeoutStopSec=5s
+Type=simple
+ExecStart=php -S 0.0.0.0:25900 /n2nsync/server/n2nsync.php
+
+[Install]
+WantedBy=multi-user.target
