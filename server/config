@@ -1,7 +1,7 @@
--p=20485
--t=20487
--a=10.255.254.0-10.255.255.0/24
--F=nonat20220410
--V=Here_is_NoNat.co
+-p=
+-t=
+-a=
+-F=
+-V=
 -M
 -c=/etc/n2n/community.list
